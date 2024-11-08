@@ -1,0 +1,173 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+    color: white;
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* HEADING */
+
+#topLogo, #bottomLogo{
+    background-color: #222F3F;
+}
+
+header img{
+    width: 9em;
+    padding-top: 0.8em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+
+#menuBar, #footerTitle{
+    background-color: #364759;
+}
+
+#menu{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* MAIN */
+
+#banner{
+    background-color: #F76400;
+    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+}
+
+#banner, #topDiv{
+    text-align: center;
+}
+
+#topDiv{
+    background-image: url("../assets/images/bg-image.png");
+    background-position: center center;
+    font-weight: bold;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+#topDiv h1{
+    font-size: 2em;
+    margin-bottom: 0.8em;
+}
+
+#topDiv h3{
+    font-size: 1.2em;
+}
+
+/* Titles */
+
+h2{
+    color: black;
+    font-size: 1.6em;
+}
+
+.titleLink{
+    text-decoration: none;
+    color: #1A6673;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Poster */
+
+#containerDiv{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+
+#containerDiv h2{
+    margin-left: 20px;
+}
+
+#containerDiv h2, #containerDiv p{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#containerDiv, #container{
+    background-color: white;
+}
+
+#container{
+    background-color: white;
+    text-align: center;
+
+}
+
+.image {
+    display: inline-block;
+    margin: 0 15px
+}
+
+.image img {
+    width: 380px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* banner images */
+
+.bottomDiv{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.bottomDiv img{
+    width: 100%;
+}
+
+.bottomDiv h2, .bottomDiv p{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+}
+
+#footerTitle{
+    padding: 1em;
+}
+
+#footerTitle a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#bottomLogo{
+    padding: 5em;
+}
+
+#bottomLogo img{
+    width: 12em;
+}
